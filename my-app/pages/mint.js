@@ -186,9 +186,6 @@ export default function mint() {
       </Head>
       <Navbar />
       <Mint />
-      <div className="flex items-center w-full lg:w-1/2">
-        {tokenIdsMinted}/{MAX_NFT_SUPPLY} have been minted.
-      </div>
     </>
   );
 }
