@@ -10,6 +10,3 @@ export default function handler(req, res) {
     image: image_url + tokenId + ".png",
   });
 }
-
-https://github.com/deerchomp/commonwealth-capital/blob/main/my-app/public/img/neighbors/1.png?raw=true
-https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/
