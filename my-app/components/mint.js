@@ -172,7 +172,10 @@ export default function Hero() {
     // Wallet disconnected
     if (!walletConnected) {
       return (
-        <button onClick={connectWallet} className="">
+        <button
+          onClick={connectWallet}
+          className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+        >
           Connect your wallet
         </button>
       );
@@ -180,7 +183,11 @@ export default function Hero() {
 
     // Waiting on a transaction
     if (loading) {
-      return <button className={styles.button}>Loading...</button>;
+      return (
+        <button className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+          Loading...
+        </button>
+      );
     }
 
     // If presale started and has ended, its time for public minting
@@ -202,7 +209,8 @@ export default function Hero() {
               Mint Neighbor
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Mint a token for {tokenMintCost} ETH <br></br>
+              Mint a token for {tokenMintCost} ETH
+              <br />
               {tokenIdsMinted}/{MAX_NFT_SUPPLY} have been minted.
             </p>
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">

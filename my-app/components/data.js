@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/outline";
 
 import benefitOneImg from "../public/img/neighbors/1.png";
-import benefitTwoImg from "../public/img/business-profit.png";
+import benefitTwoImg from "../public/img/teamwork.png";
 
 const benefitOne = {
   image: benefitOneImg,

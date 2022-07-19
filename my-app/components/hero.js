@@ -25,8 +25,7 @@ export default function Hero() {
                 Mint Token
               </a>
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
+                href="/vote"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
               >
